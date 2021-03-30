@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 .5em;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    background-color: rgb(54, 44, 194);
+}
+
+#header-img {
+    height: 2.5rem;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#nav-bar > a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: .5em;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    height: calc(100vh - 2.5rem);
+}
+
+#form {
+    border: 1px solid green;
+    margin: 2rem;
+}
+
+#submit {
+    background-color: greenyellow;
+    padding: .3em;
+    border: 1px solid transparent;
+}
